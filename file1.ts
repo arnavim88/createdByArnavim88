@@ -7,6 +7,8 @@ const creditCardCvc = '737'
 
 const ssn = "blabla"
 
+const password = "123456789"
+
 
 logger.debug(
           'credit-card'
