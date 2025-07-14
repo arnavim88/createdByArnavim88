@@ -8,6 +8,12 @@ const creditCardCvc = '737'
 const ssn = "blabla"
 
 
+
+
+
+
+const strongRegex = new RegExp('^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,})');
+
 logger.debug(
           'credit-card'
         )
